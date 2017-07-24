@@ -12,7 +12,7 @@ var routes = require('./routes/index');
 var api = require('./routes/api');
 var account = require('./routes/account');
 
-var dbUrl = 'mongodb://localhost/yakyik';
+var dbUrl = 'mongodb://localhost/users';
 
 mongoose.connect(dbUrl, function(err, res){
   if (err) {
